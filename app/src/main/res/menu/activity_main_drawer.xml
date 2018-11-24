@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Subir_voto"
+            android:icon="@drawable/uploadvoto"
+            android:title="Subir Voto" />
+
+        <item
+            android:id="@+id/Graficar"
+            android:icon="@drawable/graph"
+            android:title="Grafica por Seccion" />
+
+        <item
+            android:id="@+id/Graficar_eleccion"
+            android:icon="@drawable/graph"
+            android:title="Grafica por Eleccion" />
+
+        <item
+            android:id="@+id/Graficar_Municipio"
+            android:icon="@drawable/graph"
+            android:title="Grafica por Municipio" />
+
+    </group>
+    <item android:title="">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/Agregar_usuario"
+                    android:icon="@drawable/adduser"
+                    android:title="Agregar Usuario" />
+                <item
+                    android:id="@+id/Asignar_seccion"
+                    android:icon="@drawable/clipboard"
+                    android:title="Asignar Seccion" />
+            </group>
+        </menu>
+    </item>
+    <item android:title=" ">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/salir"
+                    android:icon="@drawable/logout"
+                    android:title="Salir" />
+            </group>
+        </menu>
+
+    </item>
+
+</menu>

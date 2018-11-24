@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3f51b5</color>-->
+    <color name="colorPrimary">#607d8b</color>
+    <color name="colorPrimaryDark">#9e9e9e</color>
+    <color name="colorAccent">#2196F3</color>
+
+    <color name="colorPrimaryLight">#ffb300</color>
+    <color name="TextInPrimary">#ffffff</color>
+    <color name="TextInPrimaryLight">#000000</color>
+    <color name="Facebook_blue">#3b5998</color>
+
+    <color name="Pomegranate">#c0392b</color>
+    <color name="Alizarin">#e74c3c</color>
+
+
+    <color name="transparent">#00ffffff</color>
+    <color name="buttonlogin">#ffb300</color>
+    <color name="listcolor">#f8f8f8</color>
+    <color name="SignUpText">#757575</color>
+    <color name="grey">#757575</color>
+    <color name="blue_btn_bg_color">#1976d2</color>
+    <color name="blue_btn_bg_pressed_color">#1565C0</color>
+    <!--Grey = #e7e7e7-->
+    <color name="white">#ffffff</color>
+
+    <color name="colorbackground_comentario">#f8f8f8</color>
+    <color name="shadow">#e8e8e8</color>
+    <color name="date_color">#d0d0d0</color>
+    <color name="colortext_comentario">#b7b9b4</color>
+    <color name="comentario_text_color">#484848</color>
+    <color name="dark_text">#161928</color>
+    <color name="black_overlay">#66000000</color>
+
+    <color name="color1">#f44336</color>
+    <color name="color2">#660000</color>
+    <color name="color3">#9C27B0</color>
+    <color name="color4">#673AB7</color>
+    <color name="color5">#3F51B5</color>
+    <color name="color6">#2196F3</color>
+    <color name="color7">#03A9F4</color>
+    <color name="color8">#00BCD4</color>
+    <color name="color9">#009688</color>
+    <color name="color10">#4CAF50</color>
+    <color name="color11">#8BC34A</color>
+    <color name="color12">#CDDC39</color>
+    <color name="color13">#FFEB3B</color>
+    <color name="color14">#FFC107</color>
+    <color name="color15">#FF9800</color>
+    <color name="color16">#FF5722</color>
+    <color name="color17">#795548</color>
+    <color name="color18">#607D8B</color>
+</resources>

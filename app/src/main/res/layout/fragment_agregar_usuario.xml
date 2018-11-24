@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment_AgregarUsuario">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/Registar_titulo"
+                        android:layout_width="0dp"
+                        android:layout_height="@android:dimen/app_icon_size"
+                        android:background="@color/colorPrimary"
+                        android:gravity="center"
+                        android:text="Registar Usuario"
+                        android:textColor="@color/TextInPrimary"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <EditText
+                        android:id="@+id/Registar_Nombre"
+                        android:layout_width="0dp"
+                        android:layout_height="@android:dimen/app_icon_size"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:background="@drawable/round_editssignup"
+                        android:ems="10"
+                        android:hint="Nombre"
+                        android:inputType="textPersonName"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:singleLine="true"
+                        android:textColor="@color/SignUpText"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/Registar_titulo" />
+
+                    <EditText
+                        android:id="@+id/Registar_Usuario"
+                        android:layout_width="0dp"
+                        android:layout_height="@android:dimen/app_icon_size"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/round_editssignup"
+                        android:ems="10"
+                        android:hint="Usuario"
+                        android:inputType="textPersonName"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:singleLine="true"
+                        android:textColor="@color/SignUpText"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/Registar_Nombre" />
+
+                    <EditText
+                        android:id="@+id/Registar_Contrasenia"
+                        android:layout_width="0dp"
+                        android:layout_height="@android:dimen/app_icon_size"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/round_editssignup"
+                        android:ems="10"
+                        android:hint="Contraseña"
+                        android:inputType="textPersonName"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:singleLine="true"
+                        android:textColor="@color/SignUpText"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/Registar_Usuario" />
+
+                    <Switch
+                        android:id="@+id/Registar_SActivar"
+                        android:layout_width="0dp"
+                        android:layout_height="@android:dimen/app_icon_size"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:background="@drawable/round_editssignup"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:text="Activar Cuenta"
+                        android:textColor="@color/SignUpText"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/Registar_Contrasenia" />
+
+                    <Switch
+                        android:id="@+id/Registar_SAdministrador"
+                        android:layout_width="0dp"
+                        android:layout_height="@android:dimen/app_icon_size"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:background="@drawable/round_editssignup"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:text="Permiso de Administrador"
+                        android:textColor="@color/SignUpText"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/Registar_SActivar" />
+
+                    <Switch
+                        android:id="@+id/Registar_SGraficas"
+                        android:layout_width="0dp"
+                        android:layout_height="@android:dimen/app_icon_size"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:background="@drawable/round_editssignup"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:text="Visualizar Graficas"
+                        android:textColor="@color/SignUpText"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/Registar_SAdministrador" />
+
+                    <Switch
+                        android:id="@+id/Registar_SCapturar"
+                        android:layout_width="0dp"
+                        android:layout_height="@android:dimen/app_icon_size"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:background="@drawable/round_editssignup"
+                        android:paddingLeft="16dp"
+                        android:paddingRight="16dp"
+                        android:text="Capturar Información"
+                        android:textColor="@color/SignUpText"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/Registar_SGraficas" />
+
+                    <Button
+                        android:id="@+id/Registar_CrearUsuario"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="8dp"
+                        android:background="@drawable/round_corner_blue"
+                        android:text="Crear Usuario"
+                        android:textColor="@color/TextInPrimary"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/Registar_SCapturar" />
+
+                </android.support.constraint.ConstraintLayout>
+            </android.support.v7.widget.CardView>
+
+        </android.support.constraint.ConstraintLayout>
+
+    </ScrollView>
+
+</FrameLayout>
